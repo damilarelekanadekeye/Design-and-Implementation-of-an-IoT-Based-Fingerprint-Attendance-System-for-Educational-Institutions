@@ -101,8 +101,6 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 9. Python backend fetches, decrypts, and generates reports (CSV, HTML, Excel).
 10. Return to main menu.
 
-[Full Workflow Details](#software-workflow-details)
-
 ## Screenshots
 | Fingerprint Scanning | Class Selection | Report Example |
 |----------------------|-----------------|----------------|
@@ -124,8 +122,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 - **Author**: Damilare Lekan Adekeye
-- **Portfolio**: [your-portfolio.com](https://your-portfolio.com)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Portfolio**: [your-portfolio.com](https://damilarelekanadekeye.github.io/)
+- **Email**: [your-email@example.com](mailto:adekeyedamilarelekan@gmail.com)
 - **GitHub**: [damilarelekanadekeye](https://github.com/damilarelekanadekeye)
 
 ---
