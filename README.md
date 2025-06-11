@@ -2,7 +2,7 @@
 An IoT-based fingerprint attendance system for educational institutions using ESP32, AS608 sensor, Firebase, and Python for secure, real-time tracking.
 # IoT-Based Fingerprint Attendance System for Educational Institutions
 
-![Project Banner](images/banner.jpg)
+![Project Banner](images/banner.webp)
 
 An IoT-based biometric attendance system designed for educational institutions, leveraging ESP32, AS608 fingerprint sensor, Firebase Realtime Database, and Python for secure, real-time attendance tracking. This system automates attendance management, ensures data security with AES-128 encryption, and generates detailed reports in CSV, HTML, and Excel formats.
 
@@ -26,7 +26,7 @@ An IoT-based biometric attendance system designed for educational institutions, 
 - [Contact](#contact)
 
 ## Overview
-This project implements a portable, IoT-based fingerprint attendance system tailored for educational institutions. It uses the ESP32 microcontroller to interface with the AS608 fingerprint sensor, a 16x2 LCD, and push buttons for user interaction. Attendance data is encrypted with AES-128, stored in Firebase, and processed by a Python backend to generate comprehensive reports. The system eliminates manual attendance tracking, reduces proxy risks, and ensures data integrity.[](https://github.com/RiyaTalwar/Smart-Attendance-System-IOT)[](https://www.slideshare.net/slideshow/iot-attendance-system-using-fingerprint-module/249384086)
+This project implements a portable, IoT-based fingerprint attendance system tailored for educational institutions. It uses the ESP32 microcontroller to interface with the AS608 fingerprint sensor, a 16x2 LCD, and push buttons for user interaction. Attendance data is encrypted with AES-128, stored in Firebase, and processed by a Python backend to generate comprehensive reports. The system eliminates manual attendance tracking, reduces proxy risks, and ensures data integrity. [Read more](https://damilarelekanadekeye.github.io/#Design-and-Implementation-of-an-IoT-Based-Fingerprint-Attendance-System-for-Educational-Institutions)
 
 ## Features
 - **Biometric Authentication**: Secure fingerprint-based attendance using the AS608 sensor.
@@ -35,7 +35,7 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 - **Data Security**: AES-128 encryption for attendance records.
 - **Offline Support**: Stores data in EEPROM during WiFi outages.
 - **Multi-Format Reports**: Generates CSV, HTML, and Excel reports via Python.
-- **Course-Specific Attendance**: Supports classes EIE520–EIE529 with course-wise logging.[](https://github.com/RiyaTalwar/Smart-Attendance-System-IOT)
+- **Course-Specific Attendance**: Supports classes EIE520–EIE529 with course-wise logging.
 
 ## Hardware Requirements
 - ESP32 Dev Module
@@ -88,7 +88,7 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 6. **Reports**: Run Python script to fetch, decrypt, and generate reports in `attendance/` folder.
 
 ## Software Workflow
-![Software Workflow Diagram](images/software-workflow.jpg)
+![Software Workflow Diagram](images/software-workflow.webp)
 
 1. Initialize ESP32 and hardware.
 2. Connect to WiFi and sync time.
@@ -102,12 +102,44 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 10. Return to main menu.
 
 ## Screenshots
-| Fingerprint Scanning | Class Selection | Report Example |
-|----------------------|-----------------|----------------|
-| ![Scan](images/scan.jpg) | ![Class](images/class-selection.jpg) | ![Report](images/report.jpg) |
+
+###Hardware Internal Image
+![Hardware](images/bat-vero-chargingModule-Esp32.webp)
+![Hardware](images/casing-fabrication.webp)
+![Hardware](images/vero-lcd-pushButtons-InternalCct.webp)
+
+###Start-up
+![Startup](images/startup.webp)
+
+### Enrollment Procedures
+![Enrollment1](images/enrollment1.webp)
+![Enrollment2](images/IDNofingerfoundImagetakenPlacefingeragain.webp)
+![Enrollment3](images/removefingerFingerstoredEnrroled.webp)
+![Enrollment4](images/enrollment-done.webp)
+
+###Scan-prompt
+![Scan for validation](images/scan-prompt.webp)
+
+### Firebase RTDB Report
+![Firebase RTDB Report1](images/firebase-pic1.webp)
+![Firebase RTDB Report2](images/firebase-pic2.webp)
+![Firebase RTDB Report3](images/firebase-pic3.webp)
+![Firebase RTDB Report4](images/firebase-pic4.webp)
+![Firebase RTDB Report5](images/firebase-pic5.webp)
+
+### CSV Report
+![CSV for EIE510](images/EIE520-CSV.webp)
+![CSV for EIE511](images/EIE521-CSV.webp)
+![CSV for EIE512](images/EIE522-CSV.webp)
+
+### HTML Report
+![HTML](images/html-result.webp)
+
+### Excel Report
+![Excel](images/excel-report1.webp)
 
 ## Demo
-Watch the system in action: [YouTube Demo](https://www.youtube.com/watch?v=XXXXXXX)
+Watch the system in action: [YouTube Demo Coming soon!](https://www.youtube.com/watch?v=XXXXXXX)
 
 ## Contributing
 Contributions are welcome! Please:
@@ -128,3 +160,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 Built with ❤️ for educational innovation.
+
+## Repository Structure
+```
+server-side-fingerprint-attendance-system/
+├── src/
+│   └── code_main_encrypted_metadata_ONLY.ino # Python script with redacted credentials
+├── images/
+│   ├── banner.webp
+│   ├── scan-prompt.webp
+│   ├── startup.webp
+│   ├── vero-lcd-pushButtons-InternalCct.webp
+│   ├── bat-vero-chargingModule-Esp32.webp
+│   ├── casing-fabrication.webp
+│   ├── enrollment1.webp
+│   ├── IDNofingerfoundImagetakenPlacefingeragain.webp
+│   ├── removefingerFingerstoredEnrroled.webp
+│   ├── enrollment-done.webp
+│   ├── software-workflow.webp
+│   ├── circuit-diagram.webp
+│   ├── firebase-pic1.webp # Sample Firebase Result screenshot
+│   ├── firebase-pic2.webp # Sample Firebase Result screenshot
+│   ├── firebase-pic3.webp # Sample Firebase Result screenshot
+│   ├── firebase-pic4.webp # Sample Firebase Result screenshot
+│   ├── firebase-pic5.webp # Sample Firebase Result screenshot
+│   ├── EIE520-CSV.webp # Sample CSV report screenshot
+│   ├── EIE521-CSV.webp # Sample CSV report screenshot
+│   ├── EIE522-CSV.webp # Sample CSV report screenshot
+│   ├── html-result.webp # Sample HTML report screenshot
+│   └── excel-report1.webp # Sample Excel report screenshot
+├── LICENSE # MIT License file
+└── README.md # Main README
+```
