@@ -1,10 +1,8 @@
-# Design-and-Implementation-of-an-IoT-Based-Fingerprint-Attendance-System-for-Educational-Institutions
-An IoT-based fingerprint attendance system for educational institutions using ESP32, AS608 sensor, Firebase, and Python for secure, real-time tracking.
 # IoT-Based Fingerprint Attendance System for Educational Institutions
+An IoT-based biometric attendance system designed for educational institutions, leveraging ESP32, AS608 fingerprint sensor, Firebase Realtime Database, and Python for secure, real-time attendance tracking. This system automates attendance management, ensures data security with AES-128 encryption, and generates detailed reports in CSV, HTML, and Excel formats.
 
 ![Project Banner](images/banner.webp)
 
-An IoT-based biometric attendance system designed for educational institutions, leveraging ESP32, AS608 fingerprint sensor, Firebase Realtime Database, and Python for secure, real-time attendance tracking. This system automates attendance management, ensures data security with AES-128 encryption, and generates detailed reports in CSV, HTML, and Excel formats.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)](https://www.espressif.com/en/products/socs/esp32)
