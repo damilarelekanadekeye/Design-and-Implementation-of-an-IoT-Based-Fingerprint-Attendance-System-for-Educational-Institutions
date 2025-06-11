@@ -125,8 +125,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 - **Author**: Damilare Lekan Adekeye
-- **Portfolio**: [your-portfolio.com](https://damilarelekanadekeye.github.io/)
-- **Email**: [your-email@example.com](mailto:adekeyedamilarelekan@gmail.com)
+- **Portfolio**: [damilarelekanadekeye.github.io/](https://damilarelekanadekeye.github.io/)
+- **Email**: [adekeyedamilarelekan@gmail.com](mailto:adekeyedamilarelekan@gmail.com)
 - **GitHub**: [damilarelekanadekeye](https://github.com/damilarelekanadekeye)
 
 ---
