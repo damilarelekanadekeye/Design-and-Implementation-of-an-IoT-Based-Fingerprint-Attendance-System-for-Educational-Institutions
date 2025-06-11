@@ -103,12 +103,12 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 
 ## Screenshots
 
-###Hardware Internal Image
+### Hardware Internal Image
 ![Hardware](images/bat-vero-chargingModule-Esp32.webp)
 ![Hardware](images/casing-fabrication.webp)
 ![Hardware](images/vero-lcd-pushButtons-InternalCct.webp)
 
-###Start-up
+### Start-up
 ![Startup](images/startup.webp)
 
 ### Enrollment Procedures
@@ -117,7 +117,7 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 ![Enrollment3](images/removefingerFingerstoredEnrroled.webp)
 ![Enrollment4](images/enrollment-done.webp)
 
-###Scan-prompt
+### Scan-prompt
 ![Scan for validation](images/scan-prompt.webp)
 
 ### Firebase RTDB Report
