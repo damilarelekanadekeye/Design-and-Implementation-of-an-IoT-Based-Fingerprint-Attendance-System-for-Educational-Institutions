@@ -88,6 +88,9 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 ## Software Workflow
 ![Software Workflow Diagram](images/software-workflow.webp)
 
+### Read on Github [Here!](https://github.com/damilarelekanadekeye/SOFTWARE-A-Server-side-Fingerprint-Attendance-System-For-Educational-Institutions)
+### Read on My Portolio [Server-Side-Data-Processing-for-IoT-Fingerprint-Attendance-System](https://damilarelekanadekeye.github.io/#Server-Side-Data-Processing-for-IoT-Fingerprint-Attendance-System)
+
 1. Initialize ESP32 and hardware.
 2. Connect to WiFi and sync time.
 3. Display main menu (scan, enroll, delete).
