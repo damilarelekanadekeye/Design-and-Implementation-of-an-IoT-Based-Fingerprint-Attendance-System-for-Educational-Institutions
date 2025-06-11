@@ -103,40 +103,10 @@ This project implements a portable, IoT-based fingerprint attendance system tail
 
 ## Screenshots
 
-### Hardware Internal Image
-![Hardware](images/bat-vero-chargingModule-Esp32.webp)
-![Hardware](images/casing-fabrication.webp)
-![Hardware](images/vero-lcd-pushButtons-InternalCct.webp)
-
-### Start-up
-![Startup](images/startup.webp)
-
-### Enrollment Procedures
-![Enrollment1](images/enrollment1.webp)
-![Enrollment2](images/IDNofingerfoundImagetakenPlacefingeragain.webp)
-![Enrollment3](images/removefingerFingerstoredEnrroled.webp)
-![Enrollment4](images/enrollment-done.webp)
-
-### Scan-prompt
-![Scan for validation](images/scan-prompt.webp)
-
-### Firebase RTDB Report
-![Firebase RTDB Report1](images/firebase-pic1.webp)
-![Firebase RTDB Report2](images/firebase-pic2.webp)
-![Firebase RTDB Report3](images/firebase-pic3.webp)
-![Firebase RTDB Report4](images/firebase-pic4.webp)
-![Firebase RTDB Report5](images/firebase-pic5.webp)
-
-### CSV Report
-![CSV for EIE510](images/EIE520-CSV.webp)
-![CSV for EIE511](images/EIE521-CSV.webp)
-![CSV for EIE512](images/EIE522-CSV.webp)
-
-### HTML Report
-![HTML](images/html-result.webp)
-
 ### Excel Report
 ![Excel](images/excel-report1.webp)
+
+### See more information, results and pictures [here!](https://damilarelekanadekeye.github.io/#Design-and-Implementation-of-an-IoT-Based-Fingerprint-Attendance-System-for-Educational-Institutions)
 
 ## Demo
 Watch the system in action: [YouTube Demo Coming soon!](https://www.youtube.com/watch?v=XXXXXXX)
@@ -168,27 +138,9 @@ server-side-fingerprint-attendance-system/
 │   └── code_main_encrypted_metadata_ONLY.ino # Python script with redacted credentials
 ├── images/
 │   ├── banner.webp
-│   ├── scan-prompt.webp
-│   ├── startup.webp
-│   ├── vero-lcd-pushButtons-InternalCct.webp
-│   ├── bat-vero-chargingModule-Esp32.webp
-│   ├── casing-fabrication.webp
-│   ├── enrollment1.webp
-│   ├── IDNofingerfoundImagetakenPlacefingeragain.webp
-│   ├── removefingerFingerstoredEnrroled.webp
-│   ├── enrollment-done.webp
 │   ├── software-workflow.webp
 │   ├── circuit-diagram.webp
-│   ├── firebase-pic1.webp # Sample Firebase Result screenshot
-│   ├── firebase-pic2.webp # Sample Firebase Result screenshot
-│   ├── firebase-pic3.webp # Sample Firebase Result screenshot
-│   ├── firebase-pic4.webp # Sample Firebase Result screenshot
-│   ├── firebase-pic5.webp # Sample Firebase Result screenshot
-│   ├── EIE520-CSV.webp # Sample CSV report screenshot
-│   ├── EIE521-CSV.webp # Sample CSV report screenshot
-│   ├── EIE522-CSV.webp # Sample CSV report screenshot
-│   ├── html-result.webp # Sample HTML report screenshot
-│   └── excel-report1.webp # Sample Excel report screenshot
+│   └── excel-report1.webp
 ├── LICENSE # MIT License file
 └── README.md # Main README
 ```
